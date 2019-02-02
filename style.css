@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+    background-color: rgba(255, 191, 221, 0.623);
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 0, 149);
+}
+
+h1{
+    border: 4px dotted lavender;
+    border-bottom: 5px dotted hotpink ;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2{
+    color: rgb(4, 84, 110);
+    font-weight: lighter;
+    font-size: 30px;
+    text-decoration: underline;
+    font-style:italic;
+    font-family: 'Roboto', sans-serif;
+}
+a {
+    display: block;
+}
+img{
+    display: inline-block;
+    width: 49%;
+    margin: 0 auto;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+
+li{
+    border-top: 3px seagreen solid;
+    padding: 10px;
+    display: inline;
+}
+
+section{
+    border: 3px plum dotted;
+    border-radius: 5px;
+    margin: 20px;
+}
+.centered{
+    text-align: center;
+}
+
+.faded{
+    opacity: .5;
+}
+
+.pink-text{
+    color: pink;
+}
+
+.mammals{
+    color: red;
+    font-weight: bold;
+    display: none;
+}
+
+.birds{
+    color: blue;
+    font-style: italic;
+}
+
+.fish{
+    color: orange;
+    text-decoration: underline;
+}
+
+.salmon{
+    background-color: salmon;
+}
+
+.tiger{
+    background-color: sienna;
+}
+
+.sheep{
+    background-color: steelblue;
+}
